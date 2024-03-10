@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './Shared/Header'
-import Loader from './Shared/Loader'
 import Footer from './Shared/Footer'
 import { Link } from 'react-router-dom';
 
@@ -9,7 +8,6 @@ function Main() {
    
       <> 
 
-<Loader></Loader>
 
   <div
     className="modal fade"
@@ -154,7 +152,7 @@ function Main() {
                       <a href="jobs-grid.html">Jobs Grid</a>
                     </li>
                     <li>
-                    <Link to={"../Pages/Jobs"}> Jobs List </Link>
+                    <Link to={"jobs"}> Jobs List </Link>
                     </li>
                     <li>
                       <a href="job-details.html">Jobs Details</a>
